@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #faf5e4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  height: fit-content;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+th {
+  background-color: greenyellow;
+}
+
+td:hover {
+  background-color: #f55353;
+  cursor: pointer;
+}
+.header {
+  margin-top: 40px;
+}
+table {
+  margin-top: 60px;
+}
